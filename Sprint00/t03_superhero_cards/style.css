@@ -1,0 +1,88 @@
+.super-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.card1 {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    margin: 0px 30px 50px;
+    background: linear-gradient(#4568DC, #b06AB3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.card2 {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    margin: 0px 30px 50px;
+    background: linear-gradient(#e52d27, #b31217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.card3 {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    margin: 0px 30px 50px;
+    background: linear-gradient(90deg, #000, #61045F);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.card4 {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    margin: 0px 30px 50px;
+    background: linear-gradient(#e52d27, #000);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.photo {
+    height: 162px;
+    position: relative;
+    left: 3%;
+    top: -4.93rem;
+}
+
+.photo1 {
+    height: 162px;
+    position: relative;
+    left: 3%;
+    top: -4.7rem;
+}
+
+.photo2 {
+    height: 162px;
+    position: relative;
+    left: 3%;
+    top: -4.6rem;
+}
+
+.photo3 {
+    height: 182px;
+    position: relative;
+    left: 10px;
+    top: -3.3rem;
+}
+
+.herotext {
+    font-size: 12px;
+    margin-right: 10px;
+    position: relative;
+    text-align: right;
+}
+
+.herotexts {
+    font-size: 9px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.5);;
+    text-align: right;
+    bottom: 3px;
+}

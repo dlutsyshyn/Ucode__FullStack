@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="discription" content="t05. Settings">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Settings</h1>
+    <div class="super-wrapper">
+        <form class="formbody" action="#" enctype="multipart/form-data" method="POST">
+            <div class="style_block">
+                <p class="block_heading">Typeface</p>
+                <select name="typeface" id="type">
+                    <option value="acu">Acunim Pro</option>
+                    <option value="com">Comic Sans</option>
+                    <option value="tim" disabled>Times New Roman</option>
+                </select>
+            </div>
+            <div class="weight_block">
+                <p class="block_heading">Weight</p>
+                <label class="check option">
+                    <input class="check__input" type="checkbox">
+                    <span class="check__box"></span>
+                    Bold
+                </label>
+                <label class="check option">
+                    <input class="check__input" type="checkbox">
+                    <span class="check__box"></span>
+                    Regular
+                </label>
+            </div>
+            <div class="size_block">
+                <p class="block_heading">Size</p>
+                <label class="range__container" for="range_text"><input class="range__slide" type="range" min="0" max="10" step="1" value="7" id="range"></label>
+                <span class="fakerange1"></span>
+            </div>
+            <div class="dark_block">
+                <p class="block_heading">Dark UI</p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </div>
+            <div class="color_block">
+                <p class="block_heading">Colors</p>
+                <label class="check1 option">
+                    <input class="check__input1" type="checkbox">
+                    <span class="check__box1"></span>
+                </label>
+                <label class="check1 option">
+                    <input class="check__input1" type="checkbox">
+                    <span class="check__box2"></span>
+                </label>
+                <label class="check1 option">
+                    <input class="check__input1" type="checkbox">
+                    <span class="check__box3"></span>
+                </label>
+                <label class="check1 option">
+                    <input class="check__input1" type="checkbox">
+                    <span class="check__box4"></span>
+                </label>
+                <label class="check1 option">
+                    <input class="check__input1" type="checkbox">
+                    <span class="check__box5"></span>
+                </label>
+            </div>
+        </form>
+        <div class="buttons">
+            <div><img src="./assets/images/artistic-brush.png" alt="artistic-brush"></div>
+            <div><img src="./assets/images/computer-screen.png" alt="comp-screen"></div>
+            <div><img src="./assets/images/sms-speech-bubble.png" alt="sms-speech-bubble"></div>
+            <div><img src="./assets/images/user-icon.png" alt="user-icon"></div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

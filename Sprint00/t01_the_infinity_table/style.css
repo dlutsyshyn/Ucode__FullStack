@@ -1,0 +1,46 @@
+.mainborder{
+    border-collapse: collapse;
+}
+
+.secondborder{
+    border: 1px solid #e1dde1;
+    text-align: center;
+}
+
+.tablehead{
+    background-color: black;
+    color: white;
+}
+
+.soul{
+    background-color: rgb(227, 153, 63);
+}
+
+.time{
+    background-color: rgb(56, 154, 56);
+}
+
+.space{
+    background-color: rgb(56, 56, 228);
+}
+
+.mind{
+    background-color: rgb(199, 199, 36);
+}
+
+.reality{
+    background-color: rgb(186, 53, 53);
+}
+
+.power{
+    background-color: rgb(127, 74, 165);
+}
+
+.imageset{
+    border-radius: 40px;
+    padding: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+.link {text-align: center;}

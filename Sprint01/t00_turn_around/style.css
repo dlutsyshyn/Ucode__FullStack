@@ -1,0 +1,21 @@
+html {
+    background: rgb(255, 255, 255);
+}
+
+.image {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10rem;
+    transition: 500ms ease;
+    width: 500px;
+}
+
+.image:hover {
+    cursor: pointer;
+    transform: rotate(-390deg);
+    transition: 500ms ease-in-out;
+    box-shadow: 3px 3px 20px;
+    width: 650px;
+    border-radius: 50px;
+}

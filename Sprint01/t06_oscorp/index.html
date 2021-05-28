@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta name="discription" content="t06. Oscorp">
+    <title>Oscorp</title>
+</head>
+
+<body>
+
+    <!--Header block of main page (Anchor links and contacts)-->
+    <header>
+        <div class="shop__name"><a href=""><img src="./assets/images/logo_shop.png" alt="shop_logo"></a></div>
+        <div class="anchors__block">
+            <div class="anchor__link"><a href="">About us</a></div>
+            <div class="anchor__link"><a href="">Products</a></div>
+            <div class="anchor__link"><a href="">Service</a></div>
+        </div>
+        <div class="search__block">
+            <img src="./assets/images/search_icon.png" alt="search_icon">
+            <input id="search" type="search" placeholder="I am looking for...">
+        </div>
+        <div class="phone__block">
+            <img src="./assets/images/phone_icon.png" alt="phone_icon">
+            <a href="tel: +3909999999">Contact us: <br> +380992748457</a>
+        </div>
+    </header>
+
+    <div class="navigation__block">
+        <h2>Home / <a href="">Catalog</a></h2>
+    </div>
+
+    <!--Items and filter area (purchase items area)-->
+    <div class="super__wrapper">
+
+        <div class="catalog__block">
+            <h3>Products:</h3>
+            <div class="firstrow">
+                <input type="checkbox" id="1" value="" name="power">
+                <label for="1" class="butt">Keyboard</label>
+                <input type="checkbox" id="2" value="" checked name="power">
+                <label for="2" class="butt">Graphics Card</label>
+                <input type="checkbox" id="3" value="" checked name="power">
+                <label for="3" class="butt">Power Supply</label>
+            </div>
+        </div>
+
+        <div class="product__block">
+
+            <div class="filter__block">
+                <p>Filter</p>
+                <form class="filter" action="#">
+                    <input type="text" placeholder="Search by name" id="fill">
+                    <p>Search by category:</p>
+                    <label class="checkbox-other">
+                        <input type="checkbox" checked>
+                        <span>Power Supply</span>
+                    </label>
+                    <label class="checkbox-other">
+                        <input type="checkbox">
+                        <span>Graphics Card</span>
+                    </label>
+                    <label class="checkbox-other">
+                        <input type="checkbox" disabled>
+                        <span>Keyboard</span>
+                    </label>
+                    <label class="checkbox-other">
+                        <input type="checkbox" disabled>
+                        <span>Headphones</span>
+                    </label>
+                    <p>Search by price:</p>
+                    <input type="range" name="price" id="range">
+                    <p>I have promocode:</p>
+                    <input id="fill" type="text" placeholder="x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x">
+                    <input id="button__fill" type="submit" value="OK">
+                    <input id="button__fill" type="reset" value="Clear">
+                </form>
+            </div>
+
+            <div class="item__area__block">
+                <div class="item__row__first">
+                    <div class="item__card">
+                        <a href="card.html">
+                            <div class="item__photo"><img src="assets/images/asus_item.png" alt="asus__item"></div>
+                            <div class="item__discr">
+                                <h2>ASUS RTX 2080 TI</h2>
+                                <p><b>Category: </b>Graphics Card</p>
+                                <p><b>Description: </b>Great performance, quiet cooling system, 2-section fan with RGB
+                                    lights, compact formfactor.</p>
+                                <p><b>PRICE: 1890 USD</b></p>
+                                <input type="button" value="BUY NOW">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item__card1">
+                        <div class="item__photo"><img src="assets/images/msi_item2.png" alt="msi__item2"></div>
+                        <div class="item__discr">
+                            <h1>PRODUCT IS<br>TEMPORARILY<br>UNAVALIBLE!</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="item__row__second">
+                    <div class="item__card1">
+                        <div class="item__photo"><img src="assets/images/palit_item.png" alt="palit-item"></div>
+                        <div class="item__discr">
+                            <h1>PRODUCT IS<br>TEMPORARILY<br>UNAVALIBLE!</h1>
+                        </div>
+                    </div>
+                    <div class="item__card1">
+                        <div class="item__photo"><img src="assets/images/asus_item2.png" alt=""></div>
+                        <div class="item__discr">
+                            <h1>PRODUCT IS<br>TEMPORARILY<br>UNAVALIBLE!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer area with rights infomation-->
+        <footer>
+            <div class="footer__wrapper">
+                <div class="rights__block">
+                    <p id="footer__info__left">Designed by Dmitry Lutsyshyn<br>Junior FullStack Developer</p>
+                    <p id="footer__info__center"><b>"All rights reserved"<br>Ukaine, Kyiv<br>2021</b></p>
+                    <p id="footer__info__right">*This shop is FAKE and uses only<br>HTML5 and CSS3<br>style elements*
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

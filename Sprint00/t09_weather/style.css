@@ -1,0 +1,35 @@
+.superwrap {
+    display: flex;
+}
+
+.wcell {
+    border: 2px rgba(255, 255, 255, 0.04) solid;    
+    height: 120px;
+    width: 95px;
+    text-align: center;
+}
+
+.wdate {
+    color: white;
+    background: rgb(56, 142, 208);
+    display: block; 
+    font-family: 'Lato', sans-serif;
+}
+
+.wimg {
+    height: 60px;
+    align-content: center;
+}
+
+.wdeg {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+}
+
+.wcell:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px;
+}
+

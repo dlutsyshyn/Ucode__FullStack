@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+.box {
+    background: rgb(194, 194, 194);
+    margin: 20px 200px auto;
+    margin-top: 50px;
+    padding: 20px;
+    min-width: 190px;
+    position: absolute;
+    width: calc(100% - 400px);
+    font-size: 30px;
+}
+  
+.box::before {
+    border-left: 1px solid #6f6f6f;
+    border-right: 1px solid #6f6f6f;
+    height: calc(100% + 80px);
+    left: 0px;
+    top: -40px;
+    width: 100%;
+    content: '';
+    position: absolute;
+}
+  
+.box::after {
+    border-bottom: 1px solid #6f6f6f;
+    border-top: 1px solid #6f6f6f;
+    height: 100%;
+    left: -40px;
+    top: 0;
+    width: calc(100% + 80px);
+    content: '';
+    position: absolute;
+}

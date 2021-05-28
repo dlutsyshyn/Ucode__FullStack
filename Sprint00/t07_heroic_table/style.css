@@ -1,0 +1,69 @@
+.superwrap {
+    border: .20em solid;
+    background: linear-gradient(145deg, #6e0000, antiquewhite);
+}
+
+.hcell {
+    margin: 15px;
+    padding: 10px;
+    color: #ffe369;
+    font-style: bold;
+    align-items: center;
+    border:rgb(189, 195, 199, 0.05) 1px solid;
+}
+
+.falsecell {
+    text-align: center;
+    background: rgb(150, 8, 8);
+    color: honeydew;
+    border:rgb(189, 195, 199, 0.05) 1px solid;
+}
+
+.stcell {
+    text-align: center;
+    background: antiquewhite;
+    color: midnightblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border:rgb(189, 195, 199, 0.05) 1px solid;
+}
+
+.herocell {
+    background: #8c0909;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border:rgb(189, 195, 199, 0.05) 0px solid;
+}
+
+.herocellgap {
+    background: #7e2525;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    border:rgb(189, 195, 199, 0.05) 0px solid;
+}
+
+.linktext {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+tbody .herocell:nth-child(odd) {
+    background: rgba(189, 195, 199, 0.05);
+}

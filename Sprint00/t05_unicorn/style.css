@@ -1,0 +1,29 @@
+html {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+#rainbow-block {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(-270deg, red, orange, yellow, green, cyan, blue, purple,  rgb(215, 5, 215));
+}
+
+#horn-block::after {
+    left: 15%;
+    top: -90px;
+    position: relative;
+    content: '▲';
+    font-size: 150px;
+    color: gray;
+}

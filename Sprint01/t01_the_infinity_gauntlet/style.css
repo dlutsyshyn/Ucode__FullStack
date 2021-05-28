@@ -1,0 +1,89 @@
+html {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.superwrap {
+    padding: 20px;
+    margin-left: 200px;
+}
+
+.himg {
+    height: 400px;
+    transition: 500ms ease-in-out;
+}
+
+.hand {
+    cursor: pointer;
+    transition: 500ms ease-in-out;
+    width: 200px;
+}
+
+.mantab {
+    padding-top: 20px;
+    width: 615px;
+    display: flex;
+}
+
+.man {
+    padding: 12px;
+    height: 100px;
+}
+
+.hand:hover {
+    transition: 0.4s ease-in-out;
+    transform: rotate(65deg);
+}
+
+.hand:hover +.mantab .manscell1:nth-child(odd)
+{
+    transition: ease-in-out 0.3s;
+    opacity: 0.1;
+}
+
+.hand:hover +.mantab .manscell2:nth-child(even)
+{
+    transition: ease-in-out 0.4s;
+    opacity: 0.1;
+}
+
+.hand:hover +.mantab .manscell3:nth-child(odd)
+{
+    transition: ease-in-out 0.5s;
+    opacity: 0.1;
+}
+
+.hand:hover +.mantab .manscell4:nth-child(even)
+{
+    transition: ease-in-out 0.6s;
+    opacity: 0.1;
+}
+
+.hand:hover +.mantab .manscell5:nth-child(odd)
+{
+    transition: ease-in-out 0.7s;
+    opacity: 0.1;
+}
+
+.hand:hover +.mantab .manscell6:nth-child(even)
+{
+    transition: ease-in-out 0.8s;
+    opacity: 0.1;
+}
+
+.hand +.mantab .manscell1:nth-child(odd),
+.hand +.mantab .manscell2:nth-child(even),
+.hand +.mantab .manscell3:nth-child(odd),
+.hand +.mantab .manscell4:nth-child(even),
+.hand +.mantab .manscell5:nth-child(odd),
+.hand +.mantab .manscell6:nth-child(even)
+{
+    transition: ease-in-out 600ms;
+}

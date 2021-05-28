@@ -1,0 +1,39 @@
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.wrap {
+    width: 100%;
+    display: inline-flex;
+}
+
+.heading {
+    text-align: center;
+    text-shadow: 0px 2px 2px;
+  }
+
+.wrap {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: grey 0px 20px 10px;
+    border-radius: 10px;
+    background: rgba(184, 182, 182, 0.1);
+}
+
+.textarea {
+    margin-right: 7px;
+    width: 100%;
+}
+
+.but {
+    width: 50px;
+}

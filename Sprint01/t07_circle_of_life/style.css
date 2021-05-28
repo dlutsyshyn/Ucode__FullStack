@@ -1,0 +1,67 @@
+html {    
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.circle {
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: rgba(14, 128, 14, 0.845);
+    transition: 500ms ease;
+    
+    animation-name: move;
+    animation-duration: 3.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.circle:hover:after {
+    transform: rotate(90deg);
+    content: ":-)";
+    position: absolute;
+    font-size: 10px;
+    top: 25px;
+    left: 30px;
+    font-size: 50px;
+    transition: 500ms ease;
+    color: rgba(0, 0, 0, 0.694);
+    text-shadow: 0px 0px 5px;
+}
+
+
+.circle::before {
+    content: "Catch me if u can!";
+    position: absolute;
+    font-size: 10px;
+    top: 110px;
+    left: 13px;
+    font-style: italic;
+}
+
+.circle:hover {
+    box-shadow: 0px 0px 30px rgb(26, 26, 26);
+    cursor: pointer;
+    transition: 500ms;
+    background: rgba(242, 13, 13, 0.893);
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 85%;
+    }
+}
